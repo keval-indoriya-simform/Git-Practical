@@ -1,0 +1,36 @@
+#commit stpes :-
+
+	# created To_be_cherry_pick branch and checkout to that
+	1.  git branch to_be_cherry_pick
+	2.  git checkout to_be_cherry_pick
+	3.  git push origin to_be_cherry_pick
+	
+	# create cherry_1.html, cherry_2.html and cherry_3.html and commit them
+	4.  touch cherry_1.html
+	5.  touch cherry_2.html
+	6.  touch cherry_3.html
+	7.  git add cherry_1.html
+	8.  git commit -m "cheery_1 file added"
+	9.  git add cherry_2.html
+	10. git commit -m "cheery_2 file added"
+	11. git add cherry_3.html
+	12. git commit -m "cheery_3 file added"
+	
+	# push the changes
+	13. git push origin to_be_cherry_pick
+	
+	# created cherry_pick branch and checkout to that
+	14. git branch cherry_pick
+	15. git checkout cherry_pick
+	
+	# cherry pick those commit you want to do in cherry_pick branch
+	16.git cherry-pick 83b91b381001143192095aac69ed98135077ebaf c16c2b57271b10a5f5f791bbfadf03063d12dd2b
+
+	# push the changes to cherry_pick branch
+	17. git push origin cherry_pick
+
+
+
+
+
+
