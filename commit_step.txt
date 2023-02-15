@@ -1,0 +1,24 @@
+#commit stpes :-
+
+	# created drop_commit branch and checkout to that
+	1.  git branch drop_commit
+	2.  git checkout drop_commit
+	
+	# create drop_commit_1.html, drop_commit_2.html and drop_commit_3.html and commit them
+	3.  touch drom_commit_1.html
+	4.  touch drop_commit_2.html
+	5.  touch drop_commit_3.html
+	6.  git add drop_commit_1.html
+	7.  git commit -m "drop_commit_1 file added"
+	8.  git add drop_commit_2.html
+	9.  git commit -m "drop_commit_2 file added"
+	10. git add drop_commit_3.html
+	11. git commit -m "drop_commit_3 file added"
+	
+	
+	# push the chanes to drop_commit branch
+	12. git push origin drop_commit
+	
+	# drop commit & push changes to drop_commit branch
+	13. git reset 35c33ca7c03472862bdc726534cc9b026a4c7409
+	14. git push origin drop_commit -f
