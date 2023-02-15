@@ -1,0 +1,31 @@
+#commit stpes :-
+
+	# created change_commit_message branch and checkout to that branch
+	1.  git branch change_commit_message
+	2.  git checkout change_commit_message
+
+	# created index.html file and commit that
+	3.  touch index.html
+	4.  git add index.html
+	5.  git commit -m "index file added".
+	
+	# push that commit
+	6.  git push origin change_commit_message
+	
+	# created home.html file and commit that
+	6.  touch home.html
+	7.  git add home.html
+	8.  git commit -m "home file added"
+	
+	# change the commit message
+	9.  git commit --amend -m "commit messages changed from home file added"
+
+	# push to change_commit_message branch
+	10. git push origin change_commit_message
+
+
+
+
+
+
+
