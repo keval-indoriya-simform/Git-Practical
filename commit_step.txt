@@ -1,0 +1,38 @@
+#commit stpes :-
+
+	# created to_be_rebase branch and checkout to that branch
+	1.  git branch to_be_rebase
+	2.  git checkout to_be_rebase
+	
+	# created rebase_1.html and rebase_2.html files and commit them
+	3.  touch rebase_1.html
+	4.  touch rebase_2.html
+	5.  git add rebase_1.html
+	6.  git commit -m "rebase_1 file added"
+	7.  git add rebase_2.html
+	8.  git commit -m "rebase_2 file added"
+	
+	# push to to_be_rebase branch
+	9.  git push origin to_be_rebase
+	
+	# created rebase branch and checkout to that branch
+	10. git branch rebase
+	11. git checkout rebase
+	
+	# created index.html file and commit that
+	12. touch index.html
+	13. git add index.html
+	14. git commit -m "index file added"
+
+	# push to rebase branch
+	15. git push origin rebase
+
+	# rebase the to_be_rebase branch on rebase branch & push changes to rebase branch
+	16. git rebase -i to_be_rebase
+	17. git push origin rebase -f
+
+
+
+
+
+
