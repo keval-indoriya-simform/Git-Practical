@@ -1,0 +1,38 @@
+#commit stpes :-
+
+	# created merge branch and checkout to merge branch
+	1.  git branch merge
+	2.  git checkout merge
+	
+	# created practical_1.html file and commit that
+	3.  touch practical_1.html
+	4.  git add practical_1.html
+	5.  git commit -m "practical_1.html file added"
+
+	# push this commit in merge branch
+	6.  git push origin merge
+
+	# created to_be_merged branch and checkout to to_be_merged branch
+	7.  git branch to_be_merged
+	8.  git checkout to_be_merged
+	
+	# created index.html & home.html files and commit that
+	9.  touch index.html
+	10. git add index.html
+	11. git commit -m "index.html file added"
+	9.  touch home.html
+	10. git add home.html
+	11. git commit -m "home.html file added"
+
+	# push this commit in to_be_merged branch
+	12. git push origin to_be_merged
+	
+	# checkout to merge banch and merge thi to_be_merged branch and push the changes
+	13. git checkout merge
+        14. git merge merge to_be_merged
+        15. git push origin merge
+
+
+
+
+
